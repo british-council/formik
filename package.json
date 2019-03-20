@@ -22,7 +22,7 @@
     "dist"
   ],
   "peerDependencies": {
-    "react": ">=15"
+    "react": ">=16.8"
   },
   "scripts": {
     "test": "jest --env=jsdom",
@@ -53,8 +53,8 @@
   },
   "optionalDependencies": {},
   "resolutions": {
-    "@types/react": "^16.7.6",
-    "@types/react-dom": "^16.0.9"
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
@@ -62,8 +62,8 @@
     "@storybook/react": "^3.4.0",
     "@types/jest": "^24.0.5",
     "@types/lodash": "^4.14.119",
-    "@types/react": "^16.7.6",
-    "@types/react-dom": "^16.0.9",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
     "@types/yup": "^0.24.9",
     "all-contributors-cli": "^4.4.0",
     "awesome-typescript-loader": "^3.4.1",
@@ -78,8 +78,8 @@
     "lint-staged": "4.0.2",
     "prettier": "1.11.1",
     "raw-loader": "^0.5.1",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
     "react-testing-library": "^5.2.3",
     "rimraf": "^2.6.2",
     "rollup": "^1.1.2",
