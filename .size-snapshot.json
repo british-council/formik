@@ -32,5 +32,15 @@
         "code": 3606
       }
     }
+  },
+  "./dist/@britishcouncil/formik.cjs.production.js": {
+    "bundled": 44539,
+    "minified": 22023,
+    "gzipped": 5500
+  },
+  "./dist/@britishcouncil/formik.cjs.development.js": {
+    "bundled": 45438,
+    "minified": 22906,
+    "gzipped": 5837
   }
 }
