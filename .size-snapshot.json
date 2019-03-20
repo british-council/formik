@@ -1,35 +1,35 @@
 {
   "./dist/formik.umd.production.js": {
-    "bundled": 142526,
-    "minified": 39497,
-    "gzipped": 11966
+    "bundled": 129236,
+    "minified": 35169,
+    "gzipped": 10446
   },
   "./dist/formik.umd.development.js": {
-    "bundled": 172706,
-    "minified": 49934,
-    "gzipped": 15075
+    "bundled": 132162,
+    "minified": 37856,
+    "gzipped": 11229
   },
   "./dist/formik.cjs.production.js": {
-    "bundled": 43495,
-    "minified": 21912,
-    "gzipped": 5488
+    "bundled": 44539,
+    "minified": 22023,
+    "gzipped": 5500
   },
   "./dist/formik.cjs.development.js": {
-    "bundled": 44383,
-    "minified": 22795,
-    "gzipped": 5826
+    "bundled": 45438,
+    "minified": 22906,
+    "gzipped": 5837
   },
   "dist/formik.esm.js": {
-    "bundled": 40074,
-    "minified": 22184,
-    "gzipped": 5706,
+    "bundled": 40193,
+    "minified": 22298,
+    "gzipped": 5714,
     "treeshaked": {
       "rollup": {
-        "code": 771,
-        "import_statements": 349
+        "code": 754,
+        "import_statements": 332
       },
       "webpack": {
-        "code": 3661
+        "code": 3606
       }
     }
   }
