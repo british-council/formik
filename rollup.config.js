@@ -76,7 +76,7 @@ const buildCjs = ({ env }) => ({
   input,
   external,
   output: {
-    file: `./dist/${pkg.name}.cjs.${env}.js`,
+    file: `./dist/formik.cjs.${env}.js`,
     format: 'cjs',
     sourcemap: true,
   },
