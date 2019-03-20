@@ -1,10 +1,10 @@
 {
-  "name": "formik",
+  "name": "@britishcouncil/formik",
   "description": "Forms in React, without tears",
-  "version": "1.5.1",
+  "version": "1.5.1-bc.1",
   "license": "MIT",
   "author": "Jared Palmer <jared@palmer.net>",
-  "repository": "jaredpalmer/formik",
+  "repository": "british-council/formik",
   "keywords": [
     "formik",
     "react",
