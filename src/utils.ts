@@ -80,7 +80,7 @@ export function setNestedObjectValues<T>(
 ): T {
   for (let k of Object.keys(object)) {
     const val = object[k];
-    if (isObject(val)) {
+    if (isIterableObject(val)) {
       if (!visited.get(val)) {
         visited.set(val, true);
         // In order to keep array values consistent for both dot path  and
@@ -106,6 +106,10 @@ export const isFunction = (obj: any): obj is Function =>
 /** @private is the given object an Object? */
 export const isObject = (obj: any): boolean =>
   obj !== null && typeof obj === 'object';
+
+/** @private is the given object an Iterable Object? */
+export const isIterableObject = (obj: any): boolean =>
+  isObject(obj) && !(obj instanceof Date);
 
 /** @private is the given object an integer? */
 export const isInteger = (obj: any): boolean =>
