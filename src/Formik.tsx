@@ -84,6 +84,10 @@ export class Formik<Values = FormikValues> extends React.Component<
     this.fields[name] = Comp;
   };
 
+  getAllRegisteredFields = (): Object => {
+    return Object.assign({}, this.fields);
+  };
+
   unregisterField = (name: string) => {
     delete this.fields[name];
   };
@@ -578,6 +582,7 @@ export class Formik<Values = FormikValues> extends React.Component<
       submitForm: this.submitForm,
       validateForm: this.validateForm,
       validateField: this.validateField,
+      getAllRegisteredFields: this.getAllRegisteredFields,
       setError: this.setError,
       setErrors: this.setErrors,
       setFieldError: this.setFieldError,

@@ -66,6 +66,8 @@ export interface FormikComputedProps<Values> {
  * Formik state helpers
  */
 export interface FormikActions<Values> {
+  /** Get all registered fields. */
+  getAllRegisteredFields(): Object;
   /** Manually set top level status. */
   setStatus(status?: any): void;
   /**
