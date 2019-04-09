@@ -602,6 +602,7 @@ export class Formik<Values = FormikValues> extends React.Component<
           ? (isInitialValid as (props: this['props']) => boolean)(this.props)
           : (isInitialValid as boolean),
       initialValues: this.initialValues,
+      registeredFields: Object.keys(this.fields),
     };
   };
 

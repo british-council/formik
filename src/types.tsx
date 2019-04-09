@@ -56,6 +56,8 @@ export interface FormikState<Values> {
 export interface FormikComputedProps<Values> {
   /** True if any input has been touched. False otherwise. */
   readonly dirty: boolean;
+  /** Get names of all registered fields. */
+  readonly registeredFields: string[];
   /** Result of isInitiallyValid on mount, then whether true values pass validation. */
   readonly isValid: boolean;
   /** initialValues */
